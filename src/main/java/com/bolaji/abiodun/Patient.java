@@ -9,7 +9,6 @@ public class Patient {
     public Patient(int age, boolean isInsured){
         this.age = age;
         this.isInsured = isInsured;
-        this.discount = Discounts.getDiscounts(age);
 
     }
 
@@ -21,13 +20,6 @@ public class Patient {
         this.age = age;
     }
 
-    public float getDiscount() {
-        return discount;
-    }
-
-    public void setDiscount(float discount) {
-        this.discount = discount;
-    }
 
     public boolean isPatientInsured() {
         return isInsured;

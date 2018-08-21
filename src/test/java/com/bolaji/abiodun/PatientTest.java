@@ -30,17 +30,4 @@ public class PatientTest {
     }
 
 
-    @Test
-
-    public void getDiscountTest() {
-        Patient patient = new Patient(10, true);
-
-        double actualResult = patient.getDiscount();
-        double expectedResult = 0.0;
-
-        assert actualResult == expectedResult;
-
-    }
-
-
 }
