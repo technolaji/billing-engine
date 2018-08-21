@@ -32,3 +32,36 @@ when they are diagnosed by a MediHealth practitioner
 The basis of a new billing engine using the rules
 detailed above. MediHealth is expecting the solution to be written in a TDD style using Java or
 Scala.
+
+
+### How To Run ###
+
+Enter Patient Details
+
+```
+     $> Patient 66 True
+```
+
+Enter Services 
+
+```
+    $> service diagnosis
+    $> service bloodtest
+    $> service vaccine
+    $> service vaccine
+    $> service xray
+   
+```
+Get Bill
+```
+    $> getBill
+```
+
+
+
+
+
+
+
+
+
